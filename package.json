@@ -1,0 +1,50 @@
+{
+  "name": "node-document-validator-jsongate",
+  "description": "Validator adapter `json-gate` for `node-document` ODM for Node.js.",
+  "keywords": ["document", "odm", "object document mapper", "generic", "unified", "validator", "schema", "adapter", "json-gate"],
+  "version": "0.1.0",
+  "homepage": "https://github.com/grimen/node-document-validator-jsongate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grimen/node-document-validator-jsongate.git"
+  },
+  "bugs": {
+    "web": "https://github.com/grimen/node-document-validator-jsongate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/grimen/node-document-validator-jsongate/blob/MIT-LICENSE"
+    }
+  ],
+  "author": "Jonas Grimfelt <grimen@gmail.com>",
+  "maintainers": [
+    {
+      "name": "Jonas Grimfelt",
+      "email": "grimen@gmail.com",
+      "web": "https://github.com/grimen"
+    }
+  ],
+  "contributors": [],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "make test",
+    "test-ci": "make test-ci"
+  },
+  "bin": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "funargs": "latest",
+    "sugar": "latest",
+    "node-document-validator": "latest",
+    "json-gate": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  }
+}
